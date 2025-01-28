@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <nav class="navbar">
+            <div class="nav-container">
+                <button onclick="navigateHome()" class="nav-button home-button">Home</button>
+                <button onclick="openRecommendations()" class="nav-button">Recommendations</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section class="card">
+                <h2>Skin Concerns & Conditions</h2>
+                <div class="grid" id="features-grid">
+                    <!-- Dynamic content for features will be injected here -->
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Skin Tone</h2>
+                <div class="grid" id="tones-grid">
+                    <!-- Dynamic content for tones will be injected here -->
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Skin Type</h2>
+                <div class="grid" id="types-grid">
+                    <!-- Dynamic content for types will be injected here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
